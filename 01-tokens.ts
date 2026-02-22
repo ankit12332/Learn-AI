@@ -92,7 +92,7 @@ async function countTokens(text: string): Promise<ChatCompletionResponse> {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "nvidia/nemotron-3-nano-30b-a3b:free",
+      model: "meta-llama/llama-3.1-8b-instruct",
       messages: [
         { role: "user", content: text }
       ],
