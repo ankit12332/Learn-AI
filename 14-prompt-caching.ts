@@ -167,7 +167,7 @@ async function main(): Promise<void> {
 
   // Anthropic's caching uses cache_control markers in content parts
   // This tells the API: "cache everything up to this point"
-  const claudeModel = "anthropic/claude-haiku:beta";  // cheapest Claude model
+  const claudeModel = "anthropic/claude-3-haiku";  // cheapest Claude model
 
   console.log("  With Anthropic models, you mark WHERE to cache:");
   console.log();
