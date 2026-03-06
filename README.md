@@ -1154,9 +1154,15 @@ anthropic/claude-sonnet-4           $3.00      $15.00
 
 ### Run Any Lesson
 
+Each lesson is in its own folder:
+
 ```bash
-npx tsx 01-tokens.ts          # Lessons 1-15
-npx tsx 16-web-chat/server.ts # Lesson 16 (web app)
+npx tsx 01-tokens/01-tokens.ts
+npx tsx 03-prompt-engineering/03-prompt-engineering.ts
+npx tsx 03-prompt-engineering/03a-memory-test.ts
+npx tsx 16-web-chat/server.ts         # web app (http://localhost:3000)
+npx tsx 17-fine-tuning/17-fine-tuning.ts
+# ... same pattern for all lessons
 ```
 
 ---
