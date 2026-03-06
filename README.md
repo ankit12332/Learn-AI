@@ -1158,3 +1158,53 @@ anthropic/claude-sonnet-4           $3.00      $15.00
 npx tsx 01-tokens.ts          # Lessons 1-15
 npx tsx 16-web-chat/server.ts # Lesson 16 (web app)
 ```
+
+---
+
+## What's Next (Pending)
+
+```
+STATUS    TOPIC                        WHAT YOU'LL LEARN
+──────    ─────                        ─────────────────
+
+[ ]  1.  FINE-TUNING
+         Train a model on YOUR data. Make it behave exactly how you want.
+         → OpenAI fine-tuning API, Hugging Face, LoRA/QLoRA
+         → When to fine-tune vs prompt engineering vs RAG
+
+[ ]  2.  EMBEDDINGS + VECTOR DBs (Production RAG)
+         Lesson 7 was simulated. Build REAL RAG with actual vector search.
+         → Pinecone, ChromaDB, pgvector (PostgreSQL)
+         → OpenAI text-embedding-3-small, chunking strategies
+         → Hybrid search (keyword + semantic)
+
+[ ]  3.  AI AGENTS (Advanced)
+         Multi-agent systems, planning, memory, reflection loops.
+         → LangGraph, CrewAI, Claude Agent SDK
+         → Agent memory (short-term, long-term, episodic)
+         → Agent-to-agent communication
+
+[ ]  4.  LOCAL LLMs
+         Run models on your own machine. Zero API costs. Full privacy.
+         → Ollama, llama.cpp, vLLM
+         → Quantization (4-bit, 8-bit) — run 70B models on consumer GPUs
+         → OpenAI SDK with local baseURL
+
+[ ]  5.  FULL-STACK AI APP
+         Build a real product: SaaS with auth, billing, AI features.
+         → Next.js + Vercel AI SDK + useChat() hook
+         → Database (Postgres), auth (NextAuth/Clerk), billing (Stripe)
+         → Rate limiting, usage tracking, cost management
+
+[ ]  6.  LLM SECURITY (Deeper)
+         Red-teaming, adversarial attacks, defense in depth.
+         → OWASP LLM Top 10
+         → Prompt injection (direct, indirect), data exfiltration
+         → Content moderation APIs, safety classifiers
+
+[ ]  7.  MULTIMODAL (Deeper)
+         Audio, video, image generation — beyond text and vision.
+         → Speech-to-text (Whisper), text-to-speech
+         → Image generation (DALL-E, Stable Diffusion, Flux)
+         → Video understanding, document parsing (PDFs, tables)
+```
